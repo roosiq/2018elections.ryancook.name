@@ -1,156 +1,64 @@
 ---
-layout: index
-title: A Curated Collection of Notes on Digital Marketing
-description: Over the past 3 years, I've spent countless hours trying to figure out how to be a better marketer. You'll find my personal thoughts and a bunch of useful links here.
+layout: default
+title: Ryan Cook, Marketer, Not Baseball Player / Country Music Star
+description: Brief bio, preferences, and hobbies of Ryan Cook, the marketer. Click elsewhere if you're looking for professional baseball player or musician, Ryan Cook.
 ---
-<div class="wrapper">
-  <div class="uk-container" uk-height-viewport>
-    <div>
-      <div class="hero">
-        <div class="uk-padding-small uk-text-center">
-          <h1 class="uk-heading-hero logo">RYAN COOK</h1>
 
+<!-- # About page
+
+major defining moments; work, school, location, etc
+
+overall summary
+plus
+- where i suceeded
+- where i failed
+- what i would have changed -->
+<div class="uk-background-muted">
+  <div class="uk-section uk-background-cover" style="background-image: url(https://picsum.photos/1920/600); height: 40vh; background-repeat: no-repeat;"></div>
+    <div class="uk-container uk-padding">
+      <div class="uk-background-default uk-padding-large" style="margin-top: -150px">
+        <div>
+          <h1 class="uk-text-bold uk-heading-hero uk-text-center">coming soon</h1>
         </div>
-        <div class="uk-text-center uk-padding">
-          <div class="uk-flex uk-flex-center uk-flex-wrap">
-            <div class="uk-flex uk-flex-center">
-              <div class="uk-padding-small uk-padding-remove-top" style="">
-                <a class="uk-link-heading" href="/notes"><h4 class="uk-text-uppercase zoom uk-text-reset uk-link-heading">Notes</h4></a>
-              </div>
-              <div class="uk-padding-small uk-padding-remove-top">
-                <h4 class="">/</h4>
-              </div>
-              <div class="uk-padding-small uk-padding-remove-top" style="">
-                <a class="uk-link-heading" href="/thoughts"><h4 class="uk-text-uppercase zoom uk-text-reset uk-link-heading">Thoughts</h4></a>
-              </div>
-              <div class="uk-padding-small uk-padding-remove-top uk-visible@s">
-                <h4 class="">/</h4>
-              </div>
-            </div>
-            <div class="uk-flex uk-flex-center">
-              <div class="uk-padding-small uk-padding-remove-top" style="">
-                <a class="uk-link-heading" href="/about"><h4 class="uk-text-uppercase zoom uk-text-reset uk-link-heading">About</h4></a>
-              </div>
-              <div class="uk-padding-small uk-padding-remove-top">
-                <h4 class="">/</h4>
-              </div>
-              <div class="uk-padding-small uk-padding-remove-top" style="">
-                <a class="uk-link-heading" href="/submit"><h4 class="uk-text-uppercase zoom uk-text-reset uk-link-heading">Submit</h4></a>
-              </div>
-            </div>
-
-          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <div class="uk-background-muted">
+  <div class="uk-section uk-background-cover" style="background-image: url(../assets/images/about.jpg); height: 40vh; background-repeat: no-repeat;"></div>
+    <div class="uk-container uk-padding">
+      <div class="uk-background-default uk-padding-large" style="margin-top: -150px">
+        <div>
+          <h1 class="uk-text-bold uk-heading-hero">About</h1>
         </div>
-        <div class="uk-container uk-padding-large uk-padding-remove-top">
-          <div class="uk-margin-small-left">
-            <ul class="uk-list uk-list-large uk-width-1-2@m uk-width-2-3@s uk-width uk-align-center">
-
-              {% assign notes = site.posts | where: 'group', "note" %} {% for post in notes limit:1 %}
-              <li><b>Latest Note:</b> {{ post.title }} | <a class="uk-link-text uk-text-meta" href="/notes">see more</a></li>
-              {% endfor %} {% assign thoughts = site.posts | where: 'group', "thought" %} {% for post in thoughts limit:1 %} {% assign words = post.content | number_of_words %}
-              <li><b>Latest Thought: </b> <a class="uk-link-text" href="{{ post.url }}">{{ post.title }}</a> |
-                <span class="uk-text-meta">
-                                <span uk-icon="icon: future"></span> {% if words
-                < 360 %} 1 min {% else %} {{ words | divided_by:180 }} mins {% endif %}</span>
-              </li>
-              {% endfor %}
+        <div>
+          <p> </p>
+        </div>
+      </div>
+      <div class="uk-section uk-section-muted uk-padding-small">
+        <div class="uk-container uk-container-small">
+          <div class="" uk-grid>
+            <div class="uk-width-2-3@m">
+              <h2 class="uk-text-bold uk-text-lead">Bringing People and Brands Together</h2>
+              <p>I'm <b>Ryan Cook</b>, a digital marketer currently in Asheville, NC.  I've spent the last 10 years of my life building relationships between brands and customers.
+                Currently, I'm Director of Analytics at Element 360, where I help real estate companies find buyers in the digital space.
+                Previously, I helped ad agencies build effective traditional marketing campaigns through print, video, and radio spots in Miami, FL.</p>
+              <p>I answer a lot of questions - most of which I ask myself.</p>
+              <p>I'm exceptionally good at identifying potential customers, crafting strategies to reach those customers, managing campaigns based on the prior, and translating the outcome into normal people words.  I've grown tired of the same monotonous advertising strategies that have become ineffective and tend to alienate potential customers.  </p>
+              <p>I drink 3.5 cups of half-caff coffee a day, work best individually in the morning with <a class="uk-link-muted" href="https://open.spotify.com/user/stylage/playlist/4PXTFs11QsN2W2LypumY78?si=5MceHIkJS8WUeqdYP-zLHg">retrowave</a> blasting in my headphones and collaborate best in the afternoon.  I enjoy watching good movies & series (tv/online/youtube/twitch) and am a retired pc gamer.</p>
+              <p> Thanks for reading, <br />
+                Ryan</p>
+            </div>
+            <div class="uk-width-1-3@m">
+              <h4 class="uk-heading-line uk-text-bold"><span class="uk-text-bold">Connect</span></h4>
+              <ul class="uk-list uk-list-divider">
+                <li>Phone: <span><a href="tel:19043439775">(904) 343-9775</a></span></li>
+                <li>Email: <span><a href="mailto:r.k.cook@me.com">r.k.cook@me.com</a></span></li>
+                <li>LinkedIn: <span><a href="https://www.linkedin.com/in/rynck/">/rynck/</a></span></li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="uk-flex uk-flex-center uk-margin-auto scroll-to" style="">
-        <h2 class="zoom uk-text-reset uk-text-muted"><a class="uk-link-heading scroll-to-icon" href="#scroll-to" uk-icon="icon: chevron-down; ratio: 2" uk-scroll></a></h2>
-      </div>
     </div>
   </div>
-
-  <div id="scroll-to" class="uk-background-muted">
-    <div class="uk-padding uk-container uk-container-small">
-      <div class="button-container">
-        <h2 class="uk-h2 uk-text-bold">A Curated Collection of Notes for Marketers:</h2>
-        <p class="uk-text-meta">Select your topic(s) below:</p>
-
-        {% assign sorted_categories = site.categories | sort: categories %} {% for category in sorted_categories %}
-        <button id="btn-clear" class="uk-button uk-button-default uk-button-small" type="button" data-uk-toggle="target: .toggle{{ category[0] | slugify }}; animation: uk-animation-fade; queued: true; duration: 300">{{ category[0] }}</button>
-        {% endfor %}
-
-        <!-- <div class="uk-link-muted uk-text-meta uk-text-right uk-margin-small-top" >
-                    <button class="uk-button uk-button-link uk-link-muted clear-link">clear all</button>
-                </div> -->
-      </div>
-      <div class="notes-wrapper uk-margin-bottom">
-        {% for category in sorted_categories %}
-
-        <div class="uk-container uk-padding uk-padding-remove-bottom toggle{{ category[0] | slugify }} toggle-animation-queued">
-          <div class="uk-transition-toggle">
-            <a href="/notes/{{ category[0] | slugify }}">
-              <h3 class="uk-heading-divider uk-padding-remove-bottom uk-margin-remove-top">
-                                <a class="uk-text-bold uk-heading-link uk-link-reset" href="/notes/{{ category[0] | slugify }}">{{ category[0] }}</a>
-                            <a href="/notes/{{ category[0] | slugify }}">
-                                <span class="uk-float-right uk-text-muted uk-transition-fade" uk-icon="icon: arrow-right; ratio: 2">
-                                    <span class="uk-text-meta">see all</span>
-                                </span>
-                            </a>
-                            </h3>
-            </a>
-          </div>
-          <div>
-            <ul class="uk-list uk-list-small uk-list-inline" uk-accordion>
-              {% for post in category[1] limit:5 %} {% if post.group contains "note" %}
-              <li class="li-short">
-                <a class="uk-link-text uk-accordion-title uk-text-small" target="_blank">{{ post.title }} <span class="uk-label uk-label-home uk-label-{{ post.type }}">{{ post.type }}</span></a>
-                <div class="uk-accordion-content">
-                  <div class="uk-card uk-card-default uk-grid-collapse" uk-grid>
-                    <div class="uk-width-auto"></div>
-                    <div class="uk-margin-auto uk-margin-auto-vertical uk-padding-small">
-                      <img class="uk-border-circle" src="{{ post.image }}" alt="{{ post.title }}" width="100" height="100">
-                    </div>
-                    <div class="uk-width-expand@m">
-                      <div class="uk-card-body uk-padding-small uk-padding-remove-top uk-height-1-1">
-                        <p class="uk-text-small uk-margin-top">{{ post.content }}</p>
-                        <p class="uk-text-meta">added {{ post.date | date: "%m/%d/%y" }}<a class="uk-link uk-float-right" target="_blank" href="{{ post.link }}">read more</a></p>
-
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-                {% endif %}
-              </li>
-
-              {% endfor %}
-            </ul>
-          </div>
-
-        </div>
-
-        {% endfor %}
-      </div>
-      <!-- {% for category in site.categories %}
-            {% if post.group contains "note" %}
-            <p class="toggle{{ category[0] | slugify }}" hidden></p>
-            {% endif %}
-            {% endfor %} -->
-    </div>
-  </div>
-
-  {% for post in thoughts limit:1 %}
-  <div class="uk-background-top-right uk-background-cover uk-padding-large arti uk-height-large" uk-parallax="bgy: -200" style="background-image: url({{ post.image }});">
-    <div class="uk-container uk-card uk-card-hover uk-width-4-5@m uk-height-medium uk-background-muted">
-      <h4 class="uk-padding-small uk-padding-remove-bottom uk-padding-remove-left"><a class="uk-link-reset" href="/thoughts">Thoughts</a></h4>
-      <article class="uk-section uk-section-small uk-padding-remove-top">
-        <header>
-          <h2 class="uk-margin-remove-adjacent uk-text-bold uk-margin-small-bottom"><a title="Fusce facilisis tempus magna ac dignissim." class="uk-text-bold uk-link-reset" href="{{ post.url }}">{{ post.title }}</a></h2>
-          <p class="uk-article-meta">Written on {{ post.date | date_to_string: "ordinal", "US" }}. | <span class="uk-text-meta">
-                      <span uk-icon="icon: future"></span> {% if words
-            < 360 %} 1 min {% else %} {{ words | divided_by:180 }} mins {% endif %}</span>
-          </p>
-        </header>
-        <p class="uk-visible@s">{{ post.description }}</p>
-        <p class="uk-text-truncate uk-hidden@s">{{ post.description }}</p>
-        <a href="{{ post.url }}" title="Read More" class="uk-button uk-button-default uk-button-small">READ MORE</a>
-        <hr>
-      </article>
-    </div>
-  </div>
-  {% endfor %}
+</div> -->
